@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="#" content ="#">
+        <meta name="#" content="#">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles/aotguesser_stylesheet.css" rel="stylesheet">
+        <title>
+            Attack on Titan Guesser
+        </title> 
+        <style>
+        </style>
+    </head>
+    <body>
+        <div id="imageContainer">
+            <img src="#" id="showImage" alt="Error. 💀">
+        </div>
+        <div id="scoreContainer">
+            <p><span id="score" class="scoreStyle">Score: 0</span>
+            <span id="highScore" class="scoreStyle">High Score: 0</span></p>
+        </div>
+        <div id="epContainer">
+            <select id="episodeGuess" class="epStyle" required>
+                <option value="" disabled selected hidden>Select an Episode</option>
+                <option value="" disabled>The Fall of Zhiganshina</option>
+                <option value="S01E01">S1E01 - To You, 2,000 Years in the Future</option>
+                <option value="S01E02">S1E02 - That Day</option>
+                <option value="" disabled>Humanity Rises Again</option>
+                <option value="S01E03">S1E03 - A Dim Light in the Darkness of Despair</option>
+                <option value="S01E04">S1E04 - Night of the Graduation Ceremony</option>
+                <option value="" disabled>Battle of Trost</option>
+                <option value="S01E05">S1E05 - First Battle</option>
+                <option value="S01E06">S1E06 - The World the Girl Saw</option>
+                <option value="S01E07">S1E07 - The Small Blade</option>
+                <option value="S01E08">S1E08 - Hearing the Heartbeat</option>
+                <option value="S01E09">S1E09 - Where the Left Arm Went</option>
+                <option value="S01E10">S1E10 - Response</option>
+                <option value="S01E11">S1E11 - Icon</option>
+                <option value="S01E12">S1E12 - Wound</option>
+                <option value="S01E13">S1E13 - Primal Desires</option>
+                <option value="" disabled>Night Before the Counteroffensive</option>
+                <option value="S01E14">S1E14 - Still Can't See</option>
+                <option value="S01E15">S1E15 - Special Ops Squad</option>
+                <option value="S01E16">S1E16 - What Should Be Done</option>
+                <option value="" disabled>57th Expedition Beyond the Walls</option>
+                <option value="S01E17">S1E17 - Female Titan</option>
+                <option value="S01E18">S1E18 - Forest of Giant Trees</option>
+                <option value="S01E19">S1E19 - Bite</option>
+                <option value="S01E20">S1E20 - Erwin Smith</option>
+                <option value="S01E21">S1E21 - Crushing Blow</option>
+                <option value="S01E22">S1E22 - The Defeated</option>
+                <option value="" disabled>Raid on Stohess District</option>
+                <option value="S01E23">S1E23 - Smile</option>
+                <option value="S01E24">S1E24 - Mercy</option>
+                <option value="S01E25">S1E25 - The Wall</option>
+                <!-- <option value="" disabled>SEASON 2</option>
+                <option value="S02E26">S2E26 - Beast Titan</option>
+                <option value="S02E27">S2E27 - I'm Home</option>
+                <option value="S02E28">S2E28 - Southwestward</option>
+                <option value="S02E29">S2E29 - Soldier</option>
+                <option value="S02E30">S2E30 - Historia</option>
+                <option value="S02E31">S2E31 - Warrior</option>
+                <option value="S02E32">S2E32 - Close Combat</option>
+                <option value="S02E33">S2E33 - The Hunters</option>
+                <option value="S02E34">S2E34 - Opening</option>
+                <option value="S02E35">S2E35 - Children</option>
+                <option value="S02E36">S2E36 - Charge</option>
+                <option value="S02E37">S2E37 - Scream</option>
+                <option value="" disabled>SEASON 3</option>
+                <option value="S03E38">S3E38 - Smoke Signal</option>
+                <option value="S03E39">S3E39 - Pain</option>
+                <option value="S03E40">S3E40 - Old Story</option>
+                <option value="S03E41">S3E41 - Trust</option>
+                <option value="S03E42">S3E42 - Reply</option>
+                <option value="S03E43">S3E43 - Sin</option>
+                <option value="S03E44">S3E44 - Wish</option>
+                <option value="S03E45">S3E45 - Outside the Walls of Orvud District</option>
+                <option value="S03E46">S3E46 - Ruler of the Walls</option>
+                <option value="S03E47">S3E47 - Friends</option>
+                <option value="S03E48">S3E48 - Bystander</option>
+                <option value="S03E49">S3E49 - Night of the Battle to Retake the Wall</option>
+                <option value="S03E50">S3E50 - The Town Where Everything Began</option>
+                <option value="S03E51">S3E51 - Thunder Spears</option>
+                <option value="S03E52">S3E52 - Descent</option>
+                <option value="S03E53">S3E53 - Perfect Game</option>
+                <option value="S03E54">S3E54 - Hero</option>
+                <option value="S03E55">S3E55 - Midnight Sun</option>
+                <option value="S03E56">S3E56 - The Basement</option>
+                <option value="S03E57">S3E57 - That Day</option>
+                <option value="S03E58">S3E58 - Attack Titan</option>
+                <option value="S03E59">S3E59 - The Other Side of the Wall</option>
+                <option value="" disabled>SEASON 4</option>
+                <option value="S04E60">S4E60 - The Other Side of the Sea</option>
+                <option value="S04E61">S4E61 - Midnight Train</option>
+                <option value="S04E62">S4E62 - The Door of Hope</option>
+                <option value="S04E63">S4E63 - From One Hand to Another</option>
+                <option value="S04E64">S4E64 - Declaration of War</option>
+                <option value="S04E65">S4E65 - The War Hammer Titan</option>
+                <option value="S04E66">S4E66 - Assault</option>
+                <option value="S04E67">S4E67 - Assassin's Bullet</option>
+                <option value="S04E68">S4E68 - Brave Volunteers</option>
+                <option value="S04E69">S4E69 - A Sound Argument</option>
+                <option value="S04E70">S4E70 - Deceiver</option>
+                <option value="S04E71">S4E71 - Guides</option>
+                <option value="S04E72">S4E72 - Children of the Forest</option>
+                <option value="S04E73">S4E73 - Savagery</option>
+                <option value="S04E74">S4E74 - Sole Salvation</option>
+                <option value="S04E75">S4E75 - Above and Below</option>
+                <option value="S04E76">S4E76 - Judgement</option>
+                <option value="S04E77">S4E77 - Sneak Attack</option>
+                <option value="S04E78">S4E78 - Two Brothers</option>
+                <option value="S04E79">S4E79 - Memories of the Future</option>
+                <option value="S04E80">S4E80 - From You, 2,000 Years Ago</option>
+                <option value="S04E81">S4E81 - Thaw</option>
+                <option value="S04E82">S4E82 - Sunset</option>
+                <option value="S04E83">S4E83 - Pride</option>
+                <option value="S04E84">S4E84 - Night of the End</option>
+                <option value="S04E85">S4E85 - Traitor</option>
+                <option value="S04E86">S4E86 - Retrospective</option>
+                <option value="S04E87">S4E87 - The Dawn of Humanity</option>
+                <option value="S04E88">S4E88 - Special 1</option>
+                <option value="S04E89">S4E89 - Special 2</option> -->            </select>
+        </div>
+        <div id="subContainer">
+            <button id="submitGuess" class="subStyle">Guess</button>
+            <p id="result" class="resStyle"></p>
+        </div>
+        <script src="ep-picker.js"></script>
+    </body>
+</html>

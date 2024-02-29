@@ -1,0 +1,53 @@
+html {
+    background-color: rgb(46, 46, 46);
+}
+
+#imageContainer {
+    text-align: center;
+}
+
+#showImage {
+    max-width: 75%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#epContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.epStyle {
+    font-size: 20px;
+    background-color: rgb(46, 46, 46);
+    border: 1px solid white;
+    color: white;
+}
+
+#subContainer {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.subStyle {
+    background-color: rgb(95, 95, 95);
+    color: white;
+    font-size: 20px;
+}
+
+.resStyle {
+    color: white;
+    font-size: 20px;
+}
+
+#scoreContainer {
+    text-align: center;
+    color: white;
+}
+
+.scoreStyle {
+    color: white;
+    font-size: 20px;
+    margin: 5px 20px;
+}
