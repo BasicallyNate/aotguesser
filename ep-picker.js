@@ -237,6 +237,28 @@ document.addEventListener('DOMContentLoaded', function() {
         { src: 'img/E12/screenshot_S01E12_20240229-183033.png', seasonEpisode: 'S01E12' },
         { src: 'img/E12/screenshot_S01E12_20240229-183110.png', seasonEpisode: 'S01E12' },
         { src: 'img/E12/screenshot_S01E12_20240229-183154.png', seasonEpisode: 'S01E12' },
+
+        { src: 'img/E13/screenshot_S01E13_20240229-195031.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-195151.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-195348.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-195510.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-195554.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-195630.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-195705.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-195834.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-195949.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-200110.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-200139.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-200207.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-200325.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-200403.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-200459.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-200626.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-200654.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-200754.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-200845.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-200954.png', seasonEpisode: 'S01E13' },
+        { src: 'img/E13/screenshot_S01E13_20240229-201046.png', seasonEpisode: 'S01E13' },
         // Add more images and their season/episode numbers here
     ];
 
